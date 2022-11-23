@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Adam Nik's personal webpage</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Adam Nik">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- FontAwesome JS-->
+    <script src="https://kit.fontawesome.com/3e5cdd34bc.js" crossorigin="anonymous"></script>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-6.css">
+
+</head>
+
+<body>
+
+    <header class="header text-center">
+	    <h1 class="blog-name pt-lg-4 mb-0">Adam Nik</h1>
+
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/AdamNik_Profile.jpeg" alt="image" >
+
+					<div class="bio mb-3">Hello, my name is Adam Nik and I am a senior at Carleton College in Northfield, MN and a prospective PhD student with interests in Natural Language Processing.<br></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="mailto:nika@carleton.edu"><i class="fa-regular fa-inbox"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/adamnik"><i class="fab fa-github fa-fw"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/adam-nik-7a9436235/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr>
+				</div><!--//profile-section-->
+
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item">
+					    <a class="nav-link" href="assets/files/Adam_nik_CV.pdf" download="Adam_nik_CV.pdf"><i class="fas fa-user fa-fw mr-2"></i>Download my CV</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+    </header>
+
+    <div class="main-wrapper">
+	    <section class="blog-list px-3 py-5 p-md-5">
+		    <div class="container">
+          <h3 class="title mb-3">Research Interests</h3>
+            <p>My broad research interests pertain to how we can build and train computers to learn and perform language in the same manner that humans do.
+               My specific research interests include:
+              <ul>
+                <li><b>Conversational Agents</b>: I am interested in building dialgue systems, specifically open-domain dialogue systems, and working towards improving response coherence and modeling long-term context in coversation.</li>
+                <li><b>Natural Language Generation</b>: I view natural language generation as an integral component of many other NLP topics, including dialogue systems, and therefore want to build on the state-of-the-art techniques of the field.</li>
+                <li><b>Reinforcement Learning in NLP</b>: I want to explore how we can use natural instuctions to teach RL agents, in terms of both direct instruction following and extracting information from natural language in the environment space.</li>
+              </ul>
+             </p>
+          <h3 class="title mb-3">Publications</h3>
+            <ol>
+              <li>
+                <b>1Cademy @ Causal News Corpus 2022: Leveraging Self-Training in Causality Classification of Socio-Political Event Data</b>
+                <br>
+                <p>Adam Nik, Ge Zhang, Xingran Chen, Mingyu Li, Jie Fu
+                <br>
+                [<a href="https://arxiv.org/abs/2211.02729">Paper</a>] | [<a href="assets/files/CASE_subtask1_poster.pdf">Poster</a>]
+                <br><br>
+                <em>To appear in EMNLP 2022</em>
+                </p>
+              </li>
+              <li>
+                <b>1Cademy @ Causal News Corpus 2022: Enhance Causal Span Detection via Beam-Search-based Position Selector</b>
+                <br>
+                <p>Xingran Chen, Ge Zhang, Adam Nik, Mingyu Li, Jie Fu
+                <br>
+                [<a href="https://arxiv.org/abs/2210.17157">Paper</a>] | [<a href="assets/files/CASE_subtask2_poster.pdf">Poster</a>]
+                <br><br>
+                <em>To appear in EMNLP 2022, best of shared task report</em>
+                </p>
+              </li>
+            </ol>
+          <h3 class="title mb-3">Projects</h3>
+            <ul>
+              <li>
+                <b>Snake Game AI with Approximate Q-Learning Agent</b>
+                <br>
+                <p>This project is an implementation of a Snake Game AI agent using an approximate Q-learning algorithm. This project was my final project for <em>CS321: Making Decisions with AI</em>, which I took in the Fall of 2021. The course was one of my first introductions to the field of artificial intelligence, and the production of this project sparked my interest in  Reinforcement Learning.
+                <br>
+                [<a href="https://github.com/adamnik/Snake-Game-AI">Code</a>]
+                </p>
+              </li>
+              <li>
+                <b><em>Scenify</em>, Senior Computer Science Comps Project</b>
+                <br>
+                <p>In my Senior Comps Project, my group and I created a route generation application that focused on optimizing the scenic value of the route, rather than time or distance. We quantified the scenic value of candidate routes by querying Flickr images along the routes and inferring scenic qualities from the images by classifying them using a convolutional neural network.
+                <br>
+                [<a href="https://cs.carleton.edu/cs_comps/2122/iui/final-results/index.html">Link</a>]
+                </p>
+              </li>
+              <li>
+                <b>Ping Pong LED Snake Game Board</b>
+                <br>
+                <p>I built an 8x8 wooden LED board with ping pong balls as diffusers as part of my capstone project of <em>CS232: Art, Interactivity, and Robotics</em>. To go along with the board, I coded a Snake game compatible with Arduino board that links to the LED board. The board is thus a user-playable Snake game that uses a joystick as controls to the game. The project provided me with ample experience with working with electronics, as I completed all soldering, wiring, and circuit board work necessary for the board.
+                <br>
+                [<a href="https://github.com/adamnik/Snake-Game-for-Arduino">Code</a>] | [<a href="https://youtube.com/shorts/xMD4Rlx15m0?feature=share">Brief Demo</a>]
+                </p>
+              </li>
+              <li>
+                <b>Essay: Survey on Natural Language Generation in Open-Domain Dialogue Systems</b>
+                <br>
+                <p>I wrote this essay as my final paper for <em>CGSI130: What Minds Are What They Do: An Introduction to Cognitive Science</em>. It is a brief survey on neural approaches to natural language generation and the current challenges of language generation in open-domain dialogue systems. The motivation behind the topic came from studying Turing's ideas of how machines can demonstrate human cognitive abilities and Rumelhart's connectionist architectures of the mind from the 1980s, both of which we studied earlier in the course.
+                <br>
+                [<a href="assets/files/CGSI130.pdf">Paper</a>]
+                </p>
+              </li>
+            </ul>
+          <h3 class="title mb-3">About me</h3>
+            <p>I grew up in Nashville, TN, and moved to Minnesota when I was 13 and have been living here since. Outside of academics, I spend most of my time playing sports and staying active. In college, I was a two-sport varsity athlete (football and swimming), and I stay active nowadays by lifting, hiking, and going on walks. Additionally, I have three cats, named Mocha, Ali, and Rosie.
+            </p>
+		    </div>
+	    </section>
+
+	    <footer class="footer text-center py-2 theme-bg-dark">
+
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Templated designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+
+	    </footer>
+
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>
+
+
+</body>
+</html>
